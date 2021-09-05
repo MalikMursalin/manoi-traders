@@ -86,14 +86,14 @@
 
 
         <div class="row text-center">
-            <div class="col">
+            <div class="col-md-6">
                 <div class="counter">
                     <i class="fas fa-shipping-fast fa-2x"></i>
                     <h2 class="timer count-title count-number" data-to="40" data-speed="1500">40</h2>
                     <p class="count-text ">Working with the Network of more than 40 Suppliers</p>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6 mt-md-0 mt-2">
                 <div class="counter">
                     <i class="fas fa-box-open fa-2x"></i>
                     <h2 class="timer count-title count-number" data-to="10000" data-speed="1500">10,000</h2>
@@ -837,7 +837,7 @@
     $(document).on( 'scroll', function(){
       if($('.timer').each(count).isOnScreen() && viewCounter < 2){
         viewCounter++;
-        console.log(viewCounter);
+        // console.log(viewCounter);
       }
     });
 
